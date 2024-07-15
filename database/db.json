@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "name": "stormtrooper",
+      "price": "50",
+      "image": "./assets/stormtrooper.svg",
+      "id": "1"
+    },
+    {
+      "id": "1a46",
+      "name": "chino",
+      "price": "5",
+      "image": "./assets/imgame.png"
+    },
+    {
+      "id": "6334",
+      "name": "chino",
+      "price": "500",
+      "image": "./assets/imgame.png"
+    },
+    {
+      "id": "91a1",
+      "name": "chino",
+      "price": "500",
+      "image": "./assets/imgame.png"
+    },
+    {
+      "id": "97e1",
+      "name": "chino",
+      "price": "500",
+      "image": "./assets/imgame.png"
+    },
+    {
+      "id": "cd8a",
+      "name": "chino",
+      "price": "500",
+      "image": "./assets/imgame.png"
+    },
+    {
+      "id": "7270",
+      "name": "chino",
+      "price": "500",
+      "image": "./assets/imgame.png"
+    }
+  ]
+}

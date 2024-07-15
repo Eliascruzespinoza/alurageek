@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+    <title> AluraGeek </title>
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <img src="./assets/Logo.svg" alt="corazon">
+        </div>
+    </header>
+    <main class="main-container">
+        <section class="section-products">
+            <h1>Mis Productos:</h1>
+            <div data-product class="products-container">
+            </div>
+        </section>
+
+        <section class="add-products">
+            <h1>Agregar Producto:</h1>
+            <form class="form-container" data-form>
+                <input data-name placeholder="nombre..." type="text">
+                <input data-price placeholder="precio..." type="text">
+                <input data-image placeholder="imagen..." type="text">
+
+                <div class="button-container">
+                    <button type="submit" class="button-submit">Enviar...</button>
+                    <button type="reset" class="button-clear">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <div>
+            <img src="./assets/Logo.svg" alt="corazon">
+            <p>DESARROLLADO POR Elias Cruz Espinoza</p>
+            <P>ALURA LATAM 2024</P>
+        </div>
+    </footer>
+    <script type="module" src="js/controles/main.js"></script>
+</body>
+</html>
